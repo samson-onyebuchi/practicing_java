@@ -1,52 +1,71 @@
 /* index.css */
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     background: url('modboys.jpg') no-repeat center center fixed;
     background-size: cover;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    color: #fff;
-    text-align: center;
-}
-
-.container {
-    background: rgba(0, 0, 0, 0.5);
-    padding: 2em;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1em; /* Space between elements */
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: goldenrod;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 h1 {
-    font-size: bold;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    color: gold;
+    font-size: 2em;
+    margin-bottom: 10px;
 }
 
 h2 {
     font-size: 3em;
-    margin-top: 0;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 button {
-    background-color: #00ccff;
-    color: #fff;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 10px;
     border: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-weight: bold;
     border-radius: 5px;
-    width: 200px;
-    margin-bottom: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #004080;
+}
+
+#increment-btn {
+    background-color: #28a745;
+}
+
+#increment-btn:hover {
+    background-color: #218838;
+}
+
+#increment-btn:active {
+    background-color: #1e7e34;
+}
+
+#save-btn {
+    background-color: #ffc107;
+}
+
+#save-btn:hover {
+    background-color: #e0a800;
+}
+
+#save-btn:active {
+    background-color: #c69500;
+}
